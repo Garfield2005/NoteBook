@@ -2,6 +2,7 @@
 
 ## 背景
 Anaconda使用conda命令来安装和管理第三方工具包，但由于网络原因，使用默认的源进行在线安装时，速度慢的无法忍受，所以使用Anaconda之前的第一步就是配置一个合适的源，目前清华大学提供的镜像速度非常快
+
 清华镜像具体地址见：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
 ## 配置方法

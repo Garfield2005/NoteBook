@@ -1,10 +1,12 @@
 # Anaconda源设置-添加国内镜像源
 
 ## 背景
-Anaconda使用conda命令来安装和管理第三方工具包，但由于网络原因，使用默认的源进行在线安装时，速度慢的无法忍受，所以使用Anaconda之前的第一步就是配置一个合适的源，目前清华大学提供的镜像速度非常快，具体地址见：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
+Anaconda使用conda命令来安装和管理第三方工具包，但由于网络原因，使用默认的源进行在线安装时，速度慢的无法忍受，所以使用Anaconda之前的第一步就是配置一个合适的源，目前清华大学提供的镜像速度非常快
+清华镜像具体地址见：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
 ## 配置方法
 ### Linux环境
+(暂略)
 
 ### Windows环境
 1. 在cmd命令行中执行以下命令
@@ -17,7 +19,7 @@ Anaconda使用conda命令来安装和管理第三方工具包，但由于网络�
     conda config --set show_channel_urls yes
     ```
 
-2. 配置完成后可以在"C:\Users\$USER\.condarc"文件中查看到结果
+2. 配置完成后可以在"C:\\Users\\$USER\\.condarc"文件中查看到结果
    
     ```
     channels:
@@ -28,7 +30,7 @@ Anaconda使用conda命令来安装和管理第三方工具包，但由于网络�
       - defaults
     show_channel_urls: true
     ```
-    > **注意：**在使用中可能会出现问题，详见常见问题1
+    > **注意：** 在使用中可能会出现问题，详见常见问题1
 
 3. 此时即可使用"conda install"命令快速安装软件包
 
